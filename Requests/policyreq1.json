@@ -1,0 +1,13 @@
+{
+  "subject": {
+    "category": "access-subject",
+    "role": "admin"
+  },
+  "resource":{
+    "isPending": "false",
+    "resource-id": "DEFAULT RESOURCE"
+  },
+  "action":{
+    "action-type" : "write"
+  }
+}
