@@ -1,14 +1,14 @@
 {
-	"id": "RPSlist.7.0.1",
+	"id": "RPSlist.xxx.0.1",
 	"target":{
 		"subjects":{
 			"subject":{
-				"role":"pc-chair"
+				"role":"Manager"
 			}
 		},
 		"resources":{
 			"resource":{
-				"ispending":"false"
+				"ispending":"true"
 			}
 		},
 		"actions":{
@@ -18,7 +18,7 @@
 		}
 	},
 	"rule":{
-		"id": "RPSlist.7.0.1.r.1",
+		"id": "RPSlist.xxx.0.1.r.1",
 		"effect":"permit"
 	}
 }

@@ -37,17 +37,6 @@ var policyDecision ={
     }
 };
 
-/*function posi() {
-    return {
-        'Response': this.response_positive
-    };
-}
-
-function nega() {
-    return {
-        'Response': this.response_negative
-    };
-}*/
 
 // read the request in mode stream
 var rs = fs.createReadStream(reqPath, 'utf-8');

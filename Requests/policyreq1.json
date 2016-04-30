@@ -1,13 +1,20 @@
 {
   "subject": {
     "category": "access-subject",
-    "role": "admin"
+    "role": "Manager",
+    "userID": "Alice"
   },
   "resource":{
-    "isPending": "false",
-    "resource-id": "DEFAULT RESOURCE"
+    "isPending": "true",
+    "Resource-type": "Puchase Order",
+    "resource-id": "DEFAULT RESOURCE",
+    "PO#": "12367"
   },
   "action":{
-    "action-type" : "write"
+    "actionID": "approve",
+    "Action-type" : "write"
+  },
+  "conditions":{
+    "Device-type": "Laptop"
   }
 }
