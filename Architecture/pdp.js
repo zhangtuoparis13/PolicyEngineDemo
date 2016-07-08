@@ -15,6 +15,7 @@ function isObjectValueEqual(a, b) {
 
     // If number of properties is different,
     // objects are not equivalent
+
     if (aProps.length != bProps.length) {
         return false;
     }
@@ -42,7 +43,7 @@ function isObjectValueEqual(a, b) {
 
 var obj2 = {
     name: "Benjamin",
-    sex : "male"
+    sex : "female"
 };
 
 //Outputs: true or false
